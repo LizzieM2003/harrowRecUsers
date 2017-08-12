@@ -1,0 +1,41 @@
+header {
+  font-size: 1.6rem;
+}
+
+#logo h2 {
+  font-size: 1.6rem;
+}
+
+header .big-screen {
+  display: inline-block;
+}
+
+header .mobile-screen {
+  display: none;
+}
+
+/* -----------------PARAGRAPHS--------------------------- */
+
+.long-copy, .long-copy-list, #location {
+  width: 80%;
+}
+
+#location .long-copy {
+  width: 100%;
+}
+
+/* ------------------PARK------------------------------ */
+.image-box {
+  width: 47%;
+}
+
+/* ------------------EVENTS----------------------------- */
+.evt-month {
+  width: 45%;
+}
+
+/* -------------------FOOTER------------------------------*/
+
+.mobile-nav {
+  display: none;
+}

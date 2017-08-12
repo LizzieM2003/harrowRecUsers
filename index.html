@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="resources/css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300i,700i, 900i" rel="stylesheet">
+  <link rel="stylesheet" href="vendors/css/magnific-popup.css">
+  <link rel="stylesheet" href="resources/css/main.css">
+  <link rel="stylesheet" href="resources/css/mq-700-plus.css" media="(min-width: 700px)">
+  <link rel="stylesheet" href="resources/css/mq-800-plus.css" media="(min-width: 800px)">
+  <link rel="stylesheet" href="resources/css/mq-900-plus.css" media="(min-width: 900px)">
+  <link rel="stylesheet" href="resources/css/mq-1025-plus.css" media="(min-width: 1025px)">
+  <title>Harrow Rec Users Association</title>
+
+  <link rel="apple-touch-icon" sizes="72x72" href="resources/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+  <link rel="manifest" href="resources/favicons/manifest.json">
+  <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#1070b7">
+  <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Harrow Rec Users">
+  <meta name="application-name" content="Harrow Rec Users">
+  <meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+
+  <!-- *************************************** SVGs *********************************************** -->
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="display: none">
+    <symbol id="calendar" viewBox="0 0 100 100">
+      <path
+         d="m 20.343196,79.695447 12.145816,0 0,-12.05887 -12.145816,0 0,12.05887 z m 14.844886,0 13.49535,0 0,-12.05887 -13.49535,0 0,12.05887 z m -14.844886,-14.738618 12.145816,0 0,-13.398744 -12.145816,0 0,13.398744 z m 14.844886,0 13.49535,0 0,-13.398744 -13.49535,0 0,13.398744 z m -14.844886,-16.078493 12.145816,0 0,-12.058872 -12.145816,0 0,12.058872 z m 31.039307,30.817111 13.495351,0 0,-12.05887 -13.495351,0 0,12.05887 z m -16.194421,-30.817111 13.49535,0 0,-12.058872 -13.49535,0 0,12.058872 z m 32.388843,30.817111 12.145814,0 0,-12.05887 -12.145814,0 0,12.05887 z m -16.194422,-14.738618 13.495351,0 0,-13.398744 -13.495351,0 0,13.398744 z M 36.537616,28.78022 l 0,-12.05887 c 0,-0.712813 -0.631582,-1.339876 -1.349534,-1.339876 l -2.69907,0 c -0.717954,0 -1.349536,0.627063 -1.349536,1.339876 l 0,12.05887 c 0,0.712813 0.631582,1.339873 1.349536,1.339873 l 2.69907,0 c 0.717952,0 1.349534,-0.62706 1.349534,-1.339873 z m 31.039309,36.176609 12.145814,0 0,-13.398744 -12.145814,0 0,13.398744 z m -16.194422,-16.078493 13.495351,0 0,-12.058872 -13.495351,0 0,12.058872 z m 16.194422,0 12.145814,0 0,-12.058872 -12.145814,0 0,12.058872 z m 1.349533,-20.098116 0,-12.05887 c 0,-0.712813 -0.631583,-1.339876 -1.349533,-1.339876 l -2.699071,0 c -0.717954,0 -1.349537,0.627063 -1.349537,1.339876 l 0,12.05887 c 0,0.712813 0.631583,1.339873 1.349537,1.339873 l 2.699071,0 c 0.71795,0 1.349533,-0.62706 1.349533,-1.339873 z m 16.194422,-2.679749 0,53.594976 c 0,2.931646 -2.445359,5.359497 -5.398141,5.359497 l -59.379543,0 c -2.952783,0 -5.398141,-2.427851 -5.398141,-5.359497 l 0,-53.594976 c 0,-2.931645 2.445358,-5.359497 5.398141,-5.359497 l 5.39814,0 0,-4.019624 c 0,-3.684655 3.036453,-6.699372 6.747676,-6.699372 l 2.69907,0 c 3.711221,0 6.747675,3.014717 6.747675,6.699372 l 0,4.019624 16.194422,0 0,-4.019624 c 0,-3.684655 3.036453,-6.699372 6.747675,-6.699372 l 2.699071,0 c 3.71122,0 6.747674,3.014717 6.747674,6.699372 l 0,4.019624 5.39814,0 c 2.952782,0 5.398141,2.427852 5.398141,5.359497 z"
+      />
+    </symbol>
+
+    <symbol id="music" viewBox="0 0 100 100">
+      <path
+         d="m 85.14082,14.169107 0,50.613946 c 0,6.371572 -9.663756,8.676675 -14.655377,8.676675 -4.991622,0 -14.655377,-2.305103 -14.655377,-8.676675 0,-6.371574 9.663755,-8.676677 14.655377,-8.676677 3.021939,0 6.046809,0.540846 8.793226,1.761365 l 0,-24.268663 -35.172905,10.70991 0,32.040073 c 0,6.371574 -9.663757,8.676677 -14.655378,8.676677 -4.991621,0 -14.655377,-2.305103 -14.655377,-8.676677 0,-6.371571 9.663756,-8.676676 14.655377,-8.676676 3.021939,0 6.046809,0.540847 8.793226,1.761366 l 0,-43.698635 c 0,-1.897299 1.283811,-3.569006 3.112803,-4.156128 l 38.103981,-11.5689 c 0.413282,-0.1359357 0.823632,-0.1822111 1.283811,-0.1822111 2.42693,0 4.396613,1.9435751 4.396613,4.3383391 z"
+      />
+    </symbol>
+
+    <symbol id="tea" viewBox="0 0 100 100">
+      <path
+         d="m 77.592047,30.387097 c 0,-5.662451 -3.250118,-10.258064 -7.254728,-10.258064 l -2.418242,0 0,20.516129 2.418242,0 c 4.00461,0 7.254728,-4.595613 7.254728,-10.258065 z m -62.874305,41.032258 67.71079,0 c 0,7.532838 -4.345582,13.67742 -9.67297,13.67742 l -48.364851,0 c -5.327388,0 -9.672969,-6.144582 -9.672969,-13.67742 z M 84.846774,30.387097 c 0,11.328323 -6.500236,20.516129 -14.509455,20.516129 l -2.418242,0 0,1.709677 c 0,6.572 -3.815987,11.967743 -8.463849,11.967743 l -26.600668,0 c -4.647862,0 -8.463849,-5.395743 -8.463849,-11.967743 l 0,-39.32258 c 0,-1.870388 1.095465,-3.4193555 2.418244,-3.4193555 l 43.528364,0 c 8.011637,0 14.509455,9.1912255 14.509455,20.5161295 z"
+       />
+    </symbol>
+
+    <symbol id="book" viewBox="0 0 100 100">
+      <path
+         d="m 83.908804,26.991684 c 1.052899,1.760821 1.346419,4.063676 0.756687,6.316399 L 73.094376,77.66073 c -1.052899,4.160802 -4.755549,7.391063 -8.372027,7.391063 l -38.836079,0 c -4.29238,0 -8.87828,-3.966548 -10.434739,-9.057891 -0.673209,-2.202593 -0.673209,-4.35819 -0.08348,-6.216138 0.08348,-0.98067 0.253127,-1.958209 0.293519,-3.133134 0.04309,-0.783284 -0.336604,-1.41931 -0.253126,-2.008339 0.169648,-1.174926 1.052898,-2.008339 1.726107,-3.327389 1.26294,-2.446977 2.692836,-6.413525 3.156004,-8.95763 0.210041,-0.930541 -0.210041,-2.008339 0,-2.83862 0.210041,-0.930541 1.009813,-1.616697 1.429896,-2.497107 1.136377,-2.252724 2.609358,-6.607781 2.819399,-8.910635 0.08348,-1.027667 -0.336604,-2.155595 -0.08348,-2.938879 0.293519,-1.124794 1.219855,-1.616697 1.852671,-2.594236 1.009814,-1.616696 2.692836,-6.266266 2.945962,-8.860502 0.08348,-0.833414 -0.336604,-1.663694 -0.21004,-2.544105 0.169648,-0.930541 1.179461,-1.908078 1.85267,-3.036007 1.766501,-3.036007 2.103105,-9.7409141 7.448385,-7.980093 l -0.04309,0.147257 c 0.716301,-0.197387 1.429902,-0.4417716 2.146197,-0.4417716 l 32.020511,0 c 1.976541,0 3.745735,1.0276686 4.795941,2.7414926 1.093291,1.760821 1.346417,4.063675 0.756687,6.363396 L 66.494233,63.314108 c -1.976542,7.538321 -3.072526,9.205148 -8.415112,9.205148 l -36.563325,0 c -0.546646,0 -1.219855,0.147257 -1.599545,0.733153 -0.336604,0.585896 -0.37969,1.027669 -0.04308,2.105467 0.842858,2.83862 3.745735,3.427648 6.058881,3.427648 l 38.836079,0 c 1.556459,0 3.366044,-1.027667 3.829212,-2.791622 L 81.221354,27.674707 c 0.253127,-0.93054 0.253127,-1.908078 0.210041,-2.791622 0.966728,0.441772 1.852672,1.124795 2.482795,2.105467 z m -44.768396,0.09713 c -0.253127,0.880411 0.169649,1.566567 0.926336,1.566567 l 25.58194,0 c 0.716295,0 1.513374,-0.686156 1.766501,-1.566567 l 0.88325,-3.133134 C 68.551561,23.075266 68.128786,22.38911 67.3721,22.38911 l -25.581941,0 c -0.716294,0 -1.513374,0.686156 -1.766501,1.566567 z m -3.489915,12.532537 c -0.253127,0.88041 0.169648,1.566567 0.926335,1.566567 l 25.581941,0 c 0.716294,0 1.513373,-0.686157 1.7665,-1.566567 l 0.883251,-3.133134 c 0.253127,-0.880411 -0.169649,-1.566567 -0.926336,-1.566567 l -25.581941,0 c -0.716294,0 -1.513373,0.686156 -1.7665,1.566567 z"
+      />
+    </symbol>
+
+    <symbol id="bug" viewBox="0 0 100 100">
+      <path
+         d="m 85.028488,52.983721 c 0,1.674292 -1.275343,3.060864 -2.815325,3.060864 l -9.853635,0 c 0,5.977867 -1.188067,10.474275 -2.947643,13.868774 l 9.149803,9.99678 c 1.100792,1.196798 1.100792,3.109838 0,4.303575 -0.526466,0.621355 -1.275343,0.909076 -1.979174,0.909076 -0.703831,0 -1.452706,-0.287721 -1.979172,-0.909076 l -8.710613,-9.421338 c 0,0 -5.762969,5.739118 -13.24047,5.739118 l 0,-42.852091 -5.630648,0 0,42.852091 c -7.961737,0 -13.76975,-6.314561 -13.76975,-6.314561 l -8.049012,9.898833 c -0.571511,0.670329 -1.320388,1.003963 -2.111494,1.003963 -0.658785,0 -1.320386,-0.238748 -1.891897,-0.765216 C 20.056436,83.20669 19.966346,81.29365 20.979863,80.001965 L 29.865026,69.145082 C 28.325043,65.845471 27.314342,61.58781 27.314342,56.041524 l -9.853635,0 c -1.539982,0 -2.815324,-1.386571 -2.815324,-3.060862 0,-1.674294 1.275342,-3.060865 2.815324,-3.060865 l 9.853635,0 0,-14.061607 -7.609821,-8.273515 c -1.100792,-1.196797 -1.100792,-3.109837 0,-4.303575 1.100791,-1.193735 2.860369,-1.196797 3.958345,0 l 7.609822,8.273515 37.128495,0 7.609821,-8.273515 c 1.100792,-1.196797 2.860369,-1.196797 3.958346,0 1.097976,1.196799 1.100791,3.109838 0,4.303575 l -7.609822,8.273515 0,14.061607 9.853635,0 c 1.539982,0 2.815325,1.386571 2.815325,3.060865 z m -21.114932,-27.547772 -28.153242,0 c 0,-8.466349 6.289435,-15.304318 14.076621,-15.304318 7.787187,0 14.076621,6.837969 14.076621,15.304318 z"
+      />
+    </symbol>
+
+    <symbol id="tree" viewBox="0 0 100 100">
+      <path
+         d="m 84.903509,71.565031 c 0,1.468536 -1.378274,2.684709 -3.042546,2.684709 l -21.96414,0 c 0.143004,2.684707 0.523318,5.495595 0.523318,8.223258 0,1.385309 -1.283953,2.518255 -2.899547,2.518255 l -15.21273,0 c -1.615591,0 -2.899545,-1.132946 -2.899545,-2.518255 0,-2.727663 0.380317,-5.538551 0.523318,-8.223258 l -21.96414,0 c -1.664272,0 -3.042546,-1.216173 -3.042546,-2.684709 0,-0.714131 0.331638,-1.385309 0.903637,-1.887348 l 19.110231,-16.905602 -10.886231,0 c -1.664272,0 -3.042545,-1.216173 -3.042545,-2.684708 0,-0.714132 0.331638,-1.385309 0.903636,-1.887349 l 19.110232,-16.905601 -9.364957,0 c -1.664272,0 -3.042545,-1.216173 -3.042545,-2.684709 0,-0.714132 0.331636,-1.385309 0.903636,-1.887348 L 47.775321,10.614123 c 0.568956,-0.502041 1.332634,-0.7973592 2.138909,-0.7973592 0.806274,0 1.569954,0.2926332 2.138909,0.7973592 l 18.255276,16.108243 c 0.568956,0.502039 0.903637,1.175902 0.903637,1.887348 0,1.468536 -1.378274,2.684709 -3.042546,2.684709 l -9.364957,0 19.110232,16.905601 c 0.568956,0.50204 0.903635,1.175903 0.903635,1.887349 0,1.468535 -1.378272,2.684708 -3.042546,2.684708 l -10.886229,0 19.110232,16.905602 c 0.568956,0.502039 0.903636,1.175902 0.903636,1.887348 z"
+       />
+    </symbol>
+
+    <symbol id="heartbeat" viewBox="0 0 100 100">
+      <path
+         d="m 64.894275,53.719901 11.894108,0 c -0.466681,0.635058 -0.781128,0.979179 -0.858492,1.076158 L 51.637562,84.124538 c -0.46668,0.585005 -1.093081,0.879072 -1.716984,0.879072 -0.623905,0 -1.247808,-0.294067 -1.716984,-0.879072 L 23.871335,54.69908 c -0.07736,-0.05006 -0.389317,-0.391046 -0.818562,-0.979179 l 14.389723,0 c 1.130514,0 2.143735,-0.979181 2.418252,-2.34628 l 2.730205,-13.736676 7.409484,32.603882 c 0.311953,1.320173 1.287739,2.249299 2.418253,2.249299 l 0,0 c 1.09308,0 2.066369,-0.929126 2.378322,-2.249299 l 5.692501,-23.706795 2.183663,5.474649 c 0.429247,1.026106 1.287739,1.71122 2.223595,1.71122 z M 84.859206,32.797355 c 0,5.621683 -1.949077,10.752211 -4.015447,14.665803 l -14.389723,0 -4.327399,-10.802265 c -0.429247,-1.123085 -1.442466,-1.808198 -2.418252,-1.711219 -1.05315,0.147034 -1.911642,0.97918 -2.183664,2.249299 L 52.493558,58.218497 44.849485,24.685489 C 44.537533,23.365316 43.561747,22.43619 42.3938,22.43619 c -1.130516,0 -2.106301,0.979181 -2.378324,2.346278 l -4.524552,22.68069 -16.493528,0 c -2.06637,-3.910464 -4.015447,-9.04412 -4.015447,-14.665803 0,-14.321682 6.980239,-22.8777777 18.639759,-22.8777777 6.823015,0 13.21928,6.7447687 16.29887,10.5582527 3.079591,-3.813484 9.475854,-10.5582527 16.29887,-10.5582527 11.65952,0 18.639758,8.5529667 18.639758,22.8777777 z"
+      />
+    </symbol>
+
+    <symbol id="home" viewBox="0 0 100 100">
+      <path
+         d="m 75.07599,53.126095 0,28.062782 c 0,2.046713 -1.259297,3.741705 -2.779906,3.741705 l -16.679428,0 0,-22.450227 -11.119619,0 0,22.450227 -16.67943,0 c -1.520607,0 -2.779904,-1.694992 -2.779904,-3.741705 l 0,-28.062782 c 0,-0.115993 0.04448,-0.235728 0.04448,-0.35172 L 50.056846,25.063313 75.031511,52.774375 c 0.04448,0.115992 0.04448,0.235727 0.04448,0.35172 z m 9.685188,-4.033558 -2.693728,4.32541 c -0.216833,0.351721 -0.564321,0.583706 -0.911808,0.643574 l -0.130656,0 c -0.347488,0 -0.650498,-0.115993 -0.911809,-0.407846 L 50.054066,19.918469 19.994955,53.653675 c -0.303009,0.291853 -0.650498,0.467713 -1.042464,0.407846 -0.347488,-0.05987 -0.694976,-0.291853 -0.911809,-0.643574 l -2.693728,-4.32541 c -0.478143,-0.759566 -0.391966,-1.986844 0.175134,-2.630418 l 31.229451,-35.01861 c 1.823618,-2.0467128 4.778656,-2.0467128 6.602274,0 l 10.599777,11.924811 0,-11.400973 c 0,-1.051419 0.6088,-1.870852 1.389953,-1.870852 l 8.339714,0 c 0.781154,0 1.389953,0.819433 1.389953,1.870852 l 0,23.853366 9.512834,10.641406 c 0.564321,0.643574 0.650498,1.870852 0.175134,2.630418 z"
+      />
+    </symbol>
+
+    <symbol id="group" viewBox="0 0 100 100">
+      <path
+         d="m 36.745956,47.386139 c -3.770208,0.126109 -7.178475,2.012377 -9.607649,5.366336 l -4.858348,0 c -3.62636,0 -7.032307,-2.012375 -7.032307,-6.664989 0,-3.396892 -0.109046,-14.800357 4.494087,-14.800357 0.761002,0 4.53121,3.563247 9.424359,3.563247 1.668173,0 3.2621,-0.335396 4.821226,-0.963258 -0.109046,0.923011 -0.18097,1.84602 -0.18097,2.766348 0,3.815465 1.051018,7.588 2.937281,10.732673 z m 38.825018,26.705574 c 0,6.791098 -3.879254,10.858782 -9.679573,10.858782 l -31.683665,0 c -5.800319,0 -9.679573,-4.067684 -9.679573,-10.858782 0,-9.474268 1.921066,-24.022406 12.542611,-24.022406 1.231988,0 5.728395,5.827841 12.978794,5.827841 7.2504,0 11.746807,-5.827841 12.978796,-5.827841 10.621544,0 12.54261,14.548138 12.54261,24.022406 z M 38.448929,20.554455 c 0,5.91102 -4.169268,10.732674 -9.28051,10.732674 -5.111242,0 -9.280512,-4.821654 -9.280512,-10.732674 0,-5.911019 4.16927,-10.7326728 9.280512,-10.7326728 5.111242,0 9.28051,4.8216538 9.28051,10.7326728 z m 25.521406,16.099011 c 0,8.889336 -6.236503,16.099009 -13.920767,16.099009 -7.684263,0 -13.920766,-7.212357 -13.920766,-16.099009 0,-8.886655 6.236503,-16.099011 13.920766,-16.099011 7.684264,0 13.920767,7.212356 13.920767,16.099011 z m 20.88115,9.43402 c 0,4.652614 -3.408267,6.664989 -7.032307,6.664989 l -4.858348,0 c -2.429173,-3.353959 -5.837442,-5.240227 -9.607649,-5.366336 1.883944,-3.144673 2.937282,-6.917208 2.937282,-10.732673 0,-0.923011 -0.07193,-1.84602 -0.180971,-2.766348 1.559127,0.627862 3.153055,0.963258 4.821226,0.963258 4.89315,0 8.663358,-3.563247 9.42436,-3.563247 4.603133,0 4.494087,11.403465 4.494087,14.800357 z M 80.211229,20.554455 c 0,5.91102 -4.169269,10.732674 -9.280511,10.732674 -5.111241,0 -9.28051,-4.821654 -9.28051,-10.732674 0,-5.911019 4.169269,-10.7326728 9.28051,-10.7326728 5.111242,0 9.280511,4.8216538 9.280511,10.7326728 z"
+       />
+    </symbol>
+
+    <symbol id="user-plus" viewBox="0 0 100 100">
+      <path
+         d="m 39.101809,47.502783 c -7.250645,0 -13.131262,-8.402286 -13.131262,-18.755102 0,-10.352816 5.882805,-18.7551022 13.131262,-18.7551022 7.248457,0 13.131262,8.4022862 13.131262,18.7551022 0,10.352816 -5.882805,18.755102 -13.131262,18.755102 z m 32.828154,6.2517 12.03699,0 c 0.582152,0 1.094271,0.73145 1.094271,1.562926 l 0,9.377551 c 0,0.831476 -0.512119,1.562925 -1.094271,1.562925 l -12.03699,0 0,17.192177 c 0,0.831476 -0.512119,1.562925 -1.094272,1.562925 l -6.565631,0 c -0.582152,0 -1.094271,-0.731449 -1.094271,-1.562925 l 0,-17.192177 -12.03699,0 c -0.582153,0 -1.094272,-0.731449 -1.094272,-1.562925 l 0,-9.377551 c 0,-0.831476 0.512119,-1.562926 1.094272,-1.562926 l 12.03699,0 0,-17.192176 c 0,-0.831477 0.512119,-1.562925 1.094271,-1.562925 l 6.565631,0 c 0.582153,0 1.094272,0.731448 1.094272,1.562925 l 0,17.192176 z M 46.761711,64.69496 c 0,3.41968 1.982821,6.251701 4.377088,6.251701 l 8.754174,0 0,11.625037 c -1.676424,1.756728 -3.794934,2.441289 -5.847788,2.441289 l -29.886752,0 c -5.471359,0 -9.130604,-4.688776 -9.130604,-12.650316 0,-11.037378 1.812114,-27.985738 11.831267,-27.985738 0.547136,0 0.923566,0.340717 1.332823,0.831476 3.35066,3.663496 6.600647,5.95787 10.907702,5.95787 4.307053,0 7.557041,-2.294374 10.9077,-5.95787 0.409258,-0.487633 0.785688,-0.831476 1.332824,-0.831476 2.906386,0 5.471359,1.562924 7.421351,4.688775 l -7.624886,0 c -2.394267,0 -4.377087,2.832021 -4.377087,6.251701 l 0,9.377551 z"
+       />
+    </symbol>
+
+    <symbol id="address-book" viewBox="0 0 100 100">
+      <path
+         d="m 58.230647,36.866184 c 0,5.984083 -4.887813,10.840459 -10.861212,10.840459 -5.973399,0 -10.861211,-4.856376 -10.861211,-10.840459 0,-6.026941 4.887812,-10.880637 10.861211,-10.880637 5.973399,0 10.861212,4.856375 10.861212,10.880637 z m -2.005395,9.206488 c 7.978792,0 9.232832,9.501137 9.232832,15.653975 0,3.517055 -2.213954,7.11447 -6.058962,7.11447 l -24.064723,0 c -3.842334,0 -6.058962,-3.600094 -6.058962,-7.11447 0,-5.901046 1.254039,-15.653975 9.024271,-15.653975 l 0.208561,0 c 2.756748,1.631292 5.556276,3.640273 8.858492,3.640273 3.302214,0 6.09907,-2.008981 8.858491,-3.640273 z M 84.800773,35.358111 c 0,0.712518 -0.625682,1.339319 -1.336929,1.339319 l -4.010787,0 0,5.357281 4.010787,0 c 0.711247,0 1.336929,0.626803 1.336929,1.339321 l 0,8.035921 c 0,0.712518 -0.625682,1.33932 -1.336929,1.33932 l -4.010787,0 0,5.357281 4.010787,0 c 0.711247,0 1.336929,0.626803 1.336929,1.339321 l 0,8.035922 c 0,0.712518 -0.625682,1.33932 -1.336929,1.33932 l -4.010787,0 0,9.375242 c 0,3.68313 -3.00809,6.6966 -6.684644,6.6966 l -50.803304,0 c -3.676554,0 -6.684645,-3.01347 -6.684645,-6.6966 l 0,-61.608732 c 0,-3.683132 3.008091,-6.6966016 6.684645,-6.6966016 l 50.803304,0 c 3.676554,0 6.684644,3.0134696 6.684644,6.6966016 l 0,9.375241 4.010787,0 c 0.711247,0 1.336929,0.626802 1.336929,1.33932 l 0,8.035923 z m -10.695431,42.858248 0,-61.608732 c 0,-0.712518 -0.625684,-1.339322 -1.336929,-1.339322 l -50.803304,0 c -0.711246,0 -1.336928,0.626804 -1.336928,1.339322 l 0,61.608732 c 0,0.712518 0.625682,1.339319 1.336928,1.339319 l 50.803304,0 c 0.711245,0 1.336929,-0.626801 1.336929,-1.339319 z"
+       />
+    </symbol>
+  </svg>
+  <!-- ************************************** End SVGs ******************************************** -->
+  <header>
+    <div id="logo">
+      <img src="resources/img/hrua_logo_2.svg" alt="Harrow Recreation Ground Users Association Logo">
+      <h2>HRUA</h2>
+    </div>
+    <nav>
+      <ul>
+        <li class="big-screen"><a href="#park">The Park</a></li>
+        <li class="big-screen"><a href="#about">About Us</a></li>
+        <li class="big-screen"><a href="#membership">Membership</a></li>
+        <li class="big-screen"><a href="#events">Events</a></li>
+        <li class="big-screen"><a href="#contacts">Contacts</a></li>
+        <li class="mobile-screen"><a href="#menu">&#9776;</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="section-atf">
+    <h1>Harrow&nbsp;Recreation Ground Users&nbsp;Association</h1>
+    <h2>Join Us and Make a Difference!</h2>
+
+    <div id="atf-buttons">
+      <a href="#about" class="btn btn-secondary">Find Out More</a>
+      <a href="#membership" class="btn btn-primary">Join Us</a>
+    </div>
+  </section>
+
+  <section class="section" id="park">
+    <h2>Harrow Recreation Ground</h2>
+
+    <p class="long-copy">Harrow Recreation Ground opened in 1885, the land purchased as a result of fund-raising initiated by one of the Masters at Harrow School. Laid out with facilities for sports clubs and 4 areas for public recreation, the park has long been associated with Harrow St Mary's Sports Club and Harrow Bowls Club, the latter founded in 1902. Original wrought iron gates are found at a number of entrances.</p>
+
+    <div id="location">
+      <div id="map">
+        <script>
+          function initMap() {
+            var harrowRec = {lat: 51.5834, lng: -0.3439};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 15,
+              center: harrowRec
+            });
+            var marker = new google.maps.Marker({
+              position: harrowRec,
+              map: map
+            });
+          }
+        </script>
+      </div>
+      <p class="long-copy">Harrow Recreation Ground is located near to the centre of Harrow with entrances from Cunningham Park, Beresford Road, Roxborough Road, and Hindes Road.  Car parking is available at the Roxborough Road entrance. Facilities in the park includes football pitches, cricket squares, bowling green, children's play area, basketball court, tennis courts and a sensory garden.</p>
+    </div>
+
+    <div class="images">
+      <div class="image-box">
+        <a class="popup-link" href="resources/img/harrow-rec-1.jpg">
+          <img src="resources/img/harrow-rec-1.jpg" alt="Harrow Recreation Ground">
+        </a>
+      </div>
+      <div class="image-box">
+        <a class="popup-link" href="resources/img/harrow-rec-2.jpg">
+          <img src="resources/img/harrow-rec-2.jpg" alt="Harrow Recreation Ground">
+        </a>
+      </div>
+      <div class="image-box">
+        <a class="popup-link" href="resources/img/harrow-rec-3.jpg">
+          <img src="resources/img/harrow-rec-3.jpg" alt="Harrow Recreation Ground">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>Harrow Recreation Ground Users Association</h2>
+    <p class="long-copy">
+      The Harrow Recreation Ground Users Association is a voluntary group of users of the park who organise free events in the Harrow 'Rec' about ten times a year.
+    </p>
+    <p class="long-copy">
+      The Association also acts when needed as a support and lobbying group on behalf of park users, and we aim to work in partnership with other park users and Harrow Council to make sure that the facilities in the park can be enjoyed by all.
+    </p>
+    <p class="long-copy">
+      Cuts in funding to local authorities leads to cuts in the budgets for parks and open spaces. Groups such as Harrow Recreation Ground Users Association work together with Harrow Council to ensure that our beloved parks continue to be well maintained. This ensures that our parks continue to be pleasant environments for all to visit, and remain a vital part of our community.
+    </p>
+  </section>
+
+  <section class="section" id="membership">
+    <h2>Membership</h2>
+
+    <p class="long-copy">
+      Becoming a member of <abbr title="Harrow Rec Users Association">HRUA</abbr> means you can:
+    </p>
+
+    <p class="long-copy"><span class="emphasis">Make a difference</span>: Contribute to our events and be part of a lobbying group that represent users of the beloved Harrow Rec.</p>
+    <p class="long-copy"><span class="emphasis">Have a say</span>: Give valuable input on the use of and improvments to Harrow Rec.</p>
+    <p class="long-copy"><span class="emphasis">Be in the know</span>: Receive 3 newsletters each year with local stories and news about the Harrow Rec.</p>
+    <p class="long-copy"><span class="emphasis">Have fun</span>: Share in the free events in the Harrow Rec organised by HRUA for all to enjoy.</p>
+
+
+    <h3>How much does it cost?</h3>
+    <p class="long-copy">The subscription is £3 per household per year and we invite donations. The money we receive is used to pay for the bands and other expenses, for printing the Harrow Rec Newsletter and for improvements to the park.</p>
+
+    <p class="long-copy"><a class="link" href="resources/membership/MembershipApplication.pdf" target="_blank">Click on this link </a>for our membership application form and details of how to join us.</p>
+  </section>
+
+  <section class="section" id="events">
+    <h2>Events</h2>
+
+    <div id="evt-container">
+      <div class="evt-month">
+        <svg class="icon large-icon"><use xlink:href="#calendar"></use></svg>
+        <h4>JUNE 2017</h4>
+
+        <div class="evt-item">
+          <svg class="icon small-icon"><use xlink:href="#music"></use></svg>
+          <span class="evt-act">Harrow Concert Band</span>
+          <span>Sunday 4th June 2:30 to 4:30pm</span>
+        </div>
+
+        <div class="evt-item">
+          <svg class="icon small-icon"><use xlink:href="#music"></use></svg>
+          <span class="evt-act">Glen Trew Band</span>
+          <span class="evt-act">Harrow Community Gospel Choir</span>
+          <span>Sunday 18th June 2:30 to 4:30pm</span>
+        </div>
+      </div>
+
+      <div class="evt-month">
+        <svg class="icon large-icon"><use xlink:href="#calendar"></use></svg>
+        <h4>JULY 2017</h4>
+        <div class="evt-item">
+          <svg class="icon small-icon"><use xlink:href="#tea"></use></svg>
+          <span class="evt-act">Afternoon Tea and Dog Show</span>
+          <span>Sunday 2nd July 2:30 to 5:00pm</span>
+        </div>
+
+        <div class="evt-item">
+          <svg class="icon small-icon"><use xlink:href="#music"></use></svg>
+          <span class="evt-act">Asian/International Dance and Music</span>
+          <span>Sunday 16th July 2:30 to 5:00pm</span>
+        </div>
+      </div>
+
+      <div class="evt-month">
+        <svg class="icon large-icon"><use xlink:href="#calendar"></use></svg>
+        <h4>AUGUST 2017</h4>
+        <div class="evt-item">
+          <svg class="icon small-icon"><use xlink:href="#music"></use></svg>
+          <span class="evt-act">Portabello Jazz Band</span>
+          <span>Sunday 6th August 2:00 to 4:30pm</span>
+        </div>
+
+        <div class="evt-item">
+          <svg class="icon small-icon"><use xlink:href="#book"></use></svg>
+          <span class="evt-act">Story Telling in the Park</span>
+          <span>Sunday 28th August 2:30 to 3:30pm</span>
+        </div>
+      </div>
+
+      <div class="evt-month">
+        <svg class="icon large-icon"><use xlink:href="#calendar"></use></svg>
+        <h4>SEPTEMBER 2017</h4>
+        <div class="evt-item">
+          <svg class="icon small-icon"><use xlink:href="#music"></use></svg>
+          <span class="evt-act">Family Fun Day and Harrow Concert Band</span>
+          <span>3rd September 2:00 to 5:00pm</span>
+        </div>
+
+        <div class="evt-item">
+          <svg class="icon small-icon"><use xlink:href="#music"></use></svg>
+          <span class="evt-act">Jazz in the Park: Bob Dwyer</span>
+          <span>24th September 2:30 to 4:30pm</span>
+        </div>
+      </div>
+
+      <div class="evt-month">
+        <svg class="icon large-icon"><use xlink:href="#calendar"></use></svg>
+        <h4>OCTOBER 2017</h4>
+        <div class="evt-item">
+          <svg class="icon small-icon"><use xlink:href="#bug"></use></svg>
+          <span class="evt-act">Autumn Tree Walk and Bug Hunt</span>
+          <span>10:30am to 12pm</span>
+        </div>
+      </div>
+
+      <div class="evt-month">
+        <svg class="icon large-icon"><use xlink:href="#calendar"></use></svg>
+        <h4>DECEMBER 2017</h4>
+        <div class="evt-item">
+          <svg class="icon small-icon"><use xlink:href="#tree"></use></svg>
+          <span class="evt-act">Tree Dressing and Annual Meeting</span>
+          <span>3rd December 2:00 to 4:30pm</span>
+        </div>
+
+        <div class="evt-item">
+          <svg class="icon small-icon"><use xlink:href="#book"></use></svg>
+          <span class="evt-act">Story Telling in the Park</span>
+          <span>28th December 2:30 to 3:30pm</span>
+        </div>
+      </div>
+
+      <div class="evt-month">
+        <svg class="icon large-icon"><use xlink:href="#calendar"></use></svg>
+        <h4>REGULAR EVENTS</h4>
+        <div class="evt-item">
+          <svg class="icon small-icon"><use xlink:href="#heartbeat"></use></svg>
+          <span class="evt-act">Free Bootcamp</span>
+          <span>Thursdays 10 to 11am in basketball court</span>
+        </div>
+
+        <div class="evt-item">
+          <svg class="icon small-icon"><use xlink:href="#heartbeat"></use></svg>
+          <span class="evt-act">Free Parkrun</span>
+          <span>Saturdays at 9am meet at St Mary's Pavillion</span>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="section" id="contacts">
+    <h2>Contacts</h2>
+
+    <h3>Membership and Further Information</h3>
+    <p class="long-copy">Mic Sayer telephone: <a class="link" href="tel:02084272448">020 8427 2448</a></p>
+    <p class="long-copy">Jane Galbraith email: j.galbraith@ucl.ac.uk</p>
+
+    <h3>Lost and Found</h3>
+    <p class="long-copy">Be it wallets, chains or keys, bicycles or books,<br>
+    whatever you've lost or found<br>
+    in Harrow Recreation Ground<br>
+    please contact Karen Brookes<br><br>
+    Email: karenlbrookes@hotmail.co.uk<br>
+    Mobile: <a class="link" href="tel:07889861196">07889 861196</a></p>
+  </section>
+
+  <footer>
+    <ul class="mobile-nav" id="menu">
+      <li><a href="#section-atf"><svg class="icon small-icon"><use xlink:href="#home"></use></svg> Home</a></li>
+      <li><a href="#about"><svg class="icon small-icon"><use xlink:href="#group"></use></svg> About</a></li>
+      <li><a href="#membership"><svg class="icon small-icon"><use xlink:href="#user-plus"></use></svg> Membership</a></li>
+      <li><a href="#events"><svg class="icon small-icon"><use xlink:href="#calendar"></use></svg> Events</a></li>
+      <li><a href="#contacts"><svg class="icon small-icon"><use xlink:href="#address-book"></use></svg> Contacts</a></li>
+    </ul>
+    <p>Copyright &copy; 2017 and website design by <a class="link" href="http://lizmendes.com" target="_blank">lizmendes.com</a>. All rights reserved.</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="vendors/js/magnific-popup.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_cb2TpV4GqDeoSg2mkiqDU1KeJFd-GHw&callback=initMap"></script>
+  <script src="resources/js/script.js"></script>
+</body>
+</html>
