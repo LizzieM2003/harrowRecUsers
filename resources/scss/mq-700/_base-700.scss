@@ -39,3 +39,13 @@ header .mobile-screen {
 .mobile-nav {
   display: none;
 }
+
+footer .links {
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+footer .links a {
+	width: 50%;
+}
